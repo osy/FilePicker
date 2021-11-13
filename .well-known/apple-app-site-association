@@ -1,0 +1,10 @@
+{
+	"applinks": {
+		"details": [{
+			"appIDs": ["WDNLXAD4W8.com.osy86.FilePicker"],
+			"components": [{
+				"/": "/pick/*"
+			}]
+		}]
+	}
+}
