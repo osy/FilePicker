@@ -1,0 +1,23 @@
+<div class="features">
+
+    {% for feature in site.features %}
+
+    {% if feature.title %}
+    <div class="feature">
+        <div>
+            <span class="icon-image" style="background-image: url('assets/icons/{{ feature.icon }}.png');">
+        </div>
+        <div class="featureText">
+            <h3>
+                {{ feature.title }}
+            </h3>
+            <p>
+                {{ feature.description }}
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
